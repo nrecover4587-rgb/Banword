@@ -22,7 +22,7 @@ START_BUTTONS = InlineKeyboardMarkup([
     [InlineKeyboardButton("• ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅ •", callback_data="show_help")],
     [
         InlineKeyboardButton("• ʟᴏɢs •", url="https://t.me/BOTxBOOSTER"),
-        InlineKeyboardButton("• ᴜᴘᴅᴀᴛᴇ •", url=https://t.me/BOTxBOOSTER"")
+        InlineKeyboardButton("• ᴜᴘᴅᴀᴛᴇ •", url="https://t.me/BOTxBOOSTER")
     ],
     [InlineKeyboardButton(" ᴅᴇᴠᴇʟᴏᴩᴇʀ ", url="https://t.me/Thakurrr_366")]
 ])
