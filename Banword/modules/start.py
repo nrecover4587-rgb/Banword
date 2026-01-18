@@ -5,7 +5,7 @@ from config import OWNER_ID, BOT_USERNAME
 from Banword import Banword as app
 from Banword.helper.database import add_user, add_chat
 
-START_IMG = "https://files.catbox.moe/05x8mv.jpg"
+START_IMG = "https://files.catbox.moe/4e4k76.jpg"
 
 def get_start_caption(user):
     return f"""
@@ -21,10 +21,10 @@ START_BUTTONS = InlineKeyboardMarkup([
     [InlineKeyboardButton("• ᴀᴅᴅ ᴍᴇ •", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
     [InlineKeyboardButton("• ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅ •", callback_data="show_help")],
     [
-        InlineKeyboardButton("• ʟᴏɢs •", url="https://t.me/bot_x_worlds"),
-        InlineKeyboardButton("• ᴜᴘᴅᴀᴛᴇ •", url="https://t.me/bot_x_worlds")
+        InlineKeyboardButton("• ʟᴏɢs •", url="https://t.me/BOTxBOOSTER"),
+        InlineKeyboardButton("• ᴜᴘᴅᴀᴛᴇ •", url=https://t.me/BOTxBOOSTER"")
     ],
-    [InlineKeyboardButton("🥀 ᴅᴇᴠᴇʟᴏᴩᴇʀ 🥀", url="https://t.me/PerfectseIler")]
+    [InlineKeyboardButton(" ᴅᴇᴠᴇʟᴏᴩᴇʀ ", url="https://t.me/Thakurrr_366")]
 ])
 
 PRIVATE_START_BUTTON = InlineKeyboardMarkup([
